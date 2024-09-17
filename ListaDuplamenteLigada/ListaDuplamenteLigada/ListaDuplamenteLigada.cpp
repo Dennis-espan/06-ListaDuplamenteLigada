@@ -128,7 +128,7 @@ void inserirElemento()
 		return;
 	}
 
-	cout << "Digite o elemento:  ";
+	cout << "Digite o elemento: ";
 	cin >> novo->valor;
 	novo->prox = NULL;
 	novo->ant = NULL;
